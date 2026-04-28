@@ -23,7 +23,7 @@ jobs:
   
   deploy:
     
-    runs-on: uubuntu-latest 
+    runs-on: ubuntu-latest 
     steps:
       - name: deploys code
         run: echo "done deployment"
