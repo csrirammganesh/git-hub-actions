@@ -14,3 +14,9 @@ jobs:
 
       - name: say hello to user
         run: echo "hello $USER"
+  details:
+    runs-on: ububuntu-latest
+    steps:
+      - name: show the versions
+        run: docker --version && python --version
+   
